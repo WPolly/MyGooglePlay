@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xiaoshan.googleplayv2.MainActivity">
+
+
+    <include layout="@layout/layout_app_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v4.widget.DrawerLayout
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/content_main" />
+
+            <android.support.design.widget.NavigationView
+                android:id="@+id/navigation_main"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                app:itemTextAppearance="?android:attr/textAppearanceMedium"
+                app:itemTextColor="#3A6877"
+                app:headerLayout="@layout/navigation_header_main"
+                app:menu="@menu/menu_drawer"/>
+
+        </android.support.v4.widget.DrawerLayout>
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

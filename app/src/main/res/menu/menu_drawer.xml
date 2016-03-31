@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/ic_home"
+        android:title="@string/navigation_home"/>
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@mipmap/ic_setting"
+        android:title="@string/navigation_setting"/>
+
+    <item
+        android:id="@+id/navigation_theme"
+        android:icon="@mipmap/ic_theme"
+        android:title="@string/navigation_theme"/>
+
+    <item
+        android:id="@+id/navigation_apk_manager"
+        android:icon="@mipmap/ic_scans"
+        android:title="@string/navigation_apk_manager"/>
+
+    <item
+        android:id="@+id/navigation_feedback"
+        android:icon="@mipmap/ic_feedback"
+        android:title="@string/navigation_feedback"/>
+
+    <item
+        android:id="@+id/navigation_check_update"
+        android:icon="@mipmap/ic_updates"
+        android:title="@string/navigation_check_update"/>
+
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@mipmap/ic_about"
+        android:title="@string/navigation_about"/>
+
+    <item
+        android:id="@+id/navigation_exit"
+        android:icon="@mipmap/ic_exit"
+        android:title="@string/navigation_exit"/>
+
+</menu>

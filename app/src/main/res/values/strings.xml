@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">GooglePlay</string>
+    <string name="action_settings">设置</string>
+
+    <string name="navigation_home">首页</string>
+    <string name="navigation_setting">设置</string>
+    <string name="navigation_theme">主题</string>
+    <string name="navigation_apk_manager">安装包管理</string>
+    <string name="navigation_feedback">反馈</string>
+    <string name="navigation_check_update">检查更新</string>
+    <string name="navigation_about">关于</string>
+    <string name="navigation_exit" translatable="false">退出</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="login_name">Google Play</string>
+    <string name="login_account">play@google.com</string>
+
+    <string-array name="pager_title_main">
+        <item>首页</item>
+        <item>应用</item>
+        <item>游戏</item>
+        <item>专题</item>
+        <item>推荐</item>
+        <item>分类</item>
+        <item>排行</item>
+    </string-array>
+
+    <string name="app_detail_download_num">下载: %1$s</string>
+    <string name="app_detail_version">版本: %1$s</string>
+    <string name="app_detail_date">时间: %1$s</string>
+    <string name="app_detail_size">大小: %1$s</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="detai_title">应用详情</string>
+    <string name="download_btn_download">下载</string>
+    <string name="download_btn_install">安装</string>
+    <string name="download_btn_wait">等待下载</string>
+    <string name="download_btn_downloading">正在下载:  %1$s</string>
+    <string name="download_btn_retry">重试</string>
+    <string name="download_btn_pause">暂停中</string>
+    <string name="download_btn_open">打开</string>
+    <string name="ensure_exit_app">确定要退出应用程序吗？</string>
+    <string name="yes">确定</string>
+
+</resources>

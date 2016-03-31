@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:xiaoshan="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/selector_item_appinfo_bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <com.xiaoshan.googleplayv2.view.RatioLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xiaoshan:ratio="2.43"
+            xiaoshan:relativeTo="width">
+
+            <!--都要设置成match_parent才行,父控件中measureChildren不能生效?-->
+            <ImageView
+                android:id="@+id/item_subject_iv_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.xiaoshan.googleplayv2.view.RatioLayout>
+
+        <TextView
+            android:id="@+id/item_subject_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="title"/>
+    </LinearLayout>
+
+</FrameLayout>

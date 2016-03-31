@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#BBFEFE</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="tab_indicator_selected">#6666FF</color>
+    <color name="tab_text_selected">#6666FF</color>
+    <color name="tab_text_normal">#333333</color>
+    <color name="item_divider">#ffd7d7d7</color>
+    <color name="bg">#66cccccc</color>
+    <color name="item_download_bg">#cccccccc</color>
+    <color name="menu_bg_normal">#f0f1f3</color>
+    <color name="menu_bg_press">#cecece</color>
+    <color name="app_detail_safe_normal">#666666</color>
+    <color name="app_detail_safe_warning">#ff8800</color>
+    <color name="tab_bg">#D36824</color>
+    <color name="lv_bg">#99B9AA8B</color>
+    <color name="category_title_bg">#006313</color>
+</resources>

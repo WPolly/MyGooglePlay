@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lv_bg"
+    tools:context=".activity.DetailActivity">
+
+
+    <include
+        android:id="@+id/detail_toolbar"
+        layout="@layout/layout_app_toolbar"/>
+
+
+    <!-- 下载部分 -->
+
+    <FrameLayout
+        android:id="@+id/app_detail_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/app_detail_bottom"
+        android:layout_below="@id/detail_toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 信息部分 -->
+
+            <FrameLayout
+                android:id="@+id/app_detail_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp">
+            </FrameLayout>
+
+            <!-- 安全部分 -->
+
+            <FrameLayout
+                android:id="@+id/app_detail_safe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp">
+            </FrameLayout>
+            <!-- 截图部分 -->
+
+            <FrameLayout
+                android:id="@+id/app_detail_pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp">
+            </FrameLayout>
+
+            <!-- 简介部分 -->
+
+            <FrameLayout
+                android:id="@+id/app_detail_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
